@@ -921,7 +921,7 @@ def _print_setup_summary() -> None:
     print("- .venv/ (virtual environment)")
     print("- pyproject.toml (project configuration)")
     print("- raggy_config_example.yaml (example configuration)")
-    print("- docs/DEVELOPMENT_STATE.md (AI agent continuity tracking)")
+    print("- docs/development/DEVELOPMENT_STATE.md (AI agent continuity tracking)")
     print("\nNext steps:")
     print("1. Add your documentation files to the docs/ directory")
     print("2. Optional: Copy raggy_config_example.yaml to raggy_config.yaml and customize")

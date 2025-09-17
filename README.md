@@ -244,7 +244,7 @@ You are a senior development partner. For EVERY task, you MUST follow this exact
 Before starting ANY development work, you MUST:
 
 1. **Read Development State**:
-   - ALWAYS read `./docs/DEVELOPMENT_STATE.md` first to understand:
+   - ALWAYS read `./docs/development/DEVELOPMENT_STATE.md` first to understand:
      - What was accomplished in the previous task
      - Current project status and active features
      - Next planned steps and priorities
@@ -294,7 +294,7 @@ During development:
 After EVERY task completion, you MUST:
 
 1. **Update Development State**:
-   Update `./docs/DEVELOPMENT_STATE.md` with:
+   Update `./docs/development/DEVELOPMENT_STATE.md` with:
    - **COMPLETED**: Detailed description of what was implemented
    - **DECISIONS**: All architectural and technical decisions made
    - **CHANGES**: Files modified, new dependencies, configuration changes
@@ -316,16 +316,16 @@ After EVERY task completion, you MUST:
 
 ## CRITICAL SUCCESS BEHAVIORS:
 
-✅ **ALWAYS** start with `./docs/DEVELOPMENT_STATE.md` - NO EXCEPTIONS  
+✅ **ALWAYS** start with `./docs/development/DEVELOPMENT_STATE.md` - NO EXCEPTIONS  
 ✅ **ALWAYS** query RAG for relevant context before coding  
 ✅ **NEVER** make architectural decisions without understanding existing patterns  
 ✅ **ALWAYS** document decisions immediately, not later  
 ✅ **ALWAYS** think step-by-step and show your reasoning  
 ✅ **ALWAYS** validate your work against existing standards  
-✅ **ALWAYS** update both `./docs/DEVELOPMENT_STATE.md` and create dev logs  
+✅ **ALWAYS** update both `./docs/development/DEVELOPMENT_STATE.md` and create dev logs  
 
 ## FAILURE CONDITIONS:
-❌ Starting development without reading `./docs/DEVELOPMENT_STATE.md`  
+❌ Starting development without reading `./docs/development/DEVELOPMENT_STATE.md`  
 ❌ Making changes without querying relevant RAG context  
 ❌ Completing tasks without proper documentation updates  
 ❌ Ignoring established patterns or architectural decisions  
